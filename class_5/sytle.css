@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{
+    background-color:white;
+    height: 100vh;
+    
+
+}
+
+
+
+
+
+
+.fan-img1 {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    
+   
+    animation: fan-spin 1ms linear infinite;
+}
+
+
+
+
+@keyframes fan-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.sub{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.gif{
+    margin-right: 500px;
+}
